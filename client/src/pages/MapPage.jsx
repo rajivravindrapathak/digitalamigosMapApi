@@ -82,5 +82,5 @@ const MapPage = (props) => {
 }
 
 export default GoogleApiWrapper({
-    apiKey: '',  // security issue not provide api key
+    apiKey: '',  
   })(MapPage);
